@@ -20,7 +20,6 @@ type Community = {
 };
 
 const CommunityCard: React.FC<{ community: Community }> = ({ community }) => {
-  console.log(JSON.stringify(styles));
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden mb-4 border-l-blue-300 border-l-8">
       <div className="p-6">
