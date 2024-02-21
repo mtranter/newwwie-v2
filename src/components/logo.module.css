@@ -1,0 +1,9 @@
+
+.logo {
+  fill: #363636;
+  color: #85d4ed;
+  margin: auto;
+  max-width: 180px;
+  transition: color 0.5s ease-out, fill 0.45s ease-out;
+  width: 70%;
+}

@@ -1,0 +1,5 @@
+.community-links li:not(:last-child)::after {
+    content: " | ";
+    padding: 0 0.5rem;
+    color: #6b7280; /* Tailwind's gray-500 */
+  }
