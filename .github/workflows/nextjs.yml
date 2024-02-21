@@ -75,6 +75,8 @@ jobs:
         run: npm install
       - name: Build with Next.js
         run: npm run build
+      - name: Debyg
+        run: ls -la
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
