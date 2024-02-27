@@ -2,7 +2,7 @@ export const gqlQuery = `
 query {
   keywordSearch(
     filter: {
-      query: "e"
+      query: "%"
       lat: -32.9283
       lon: 151.7817
       radius: 20
